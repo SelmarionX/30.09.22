@@ -12,7 +12,7 @@ switch (a)
     case 5: Console.WriteLine("пятница"); break;
     case 6: Console.WriteLine("суббота"); break;
     case 7: Console.WriteLine("воскресенье"); break;
-    default: Console.WriteLine("ошибка"); break;
+    default: Console.WriteLine("ошибка"); break; //без default switch не работает
 }
 
 
